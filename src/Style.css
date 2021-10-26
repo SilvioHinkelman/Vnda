@@ -1,0 +1,459 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #d9d9d9b2;
+}
+
+.container img {
+  margin: 1rem 2rem;
+  height: 2.5rem;
+}
+
+.container a {
+  color: #3c6e71;
+  text-decoration: none;
+}
+
+.container .menu {
+  margin: auto;
+}
+
+.container .menu a {
+  font-size: 900;
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}
+
+.container .menu a:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+.container .user {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  float: right;
+}
+
+.container .user a {
+  padding: 0 10px;
+}
+
+.container .user a span {
+  padding: 2px;
+  font-size: 2.2rem;
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+  border-radius: 25%;
+  -webkit-box-shadow: 0px 0px 10px rgba(109, 109, 109, 0.6);
+          box-shadow: 0px 0px 10px rgba(109, 109, 109, 0.6);
+}
+
+.container .user a span:hover {
+  margin-top: -3px;
+  -webkit-box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+.content {
+  background: #a7a7a7;
+  background: #fff;
+}
+
+.content .banner {
+  background: url("https://i.pinimg.com/originals/88/62/d7/8862d77c4329bc11052998c45f9cedab.png") no-repeat center, #284b63;
+  height: 25rem;
+  text-align: center;
+}
+
+.content .banner img {
+  height: 35rem;
+}
+
+.content .circle {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .circle a {
+  height: 6rem;
+  width: 6rem;
+  margin: 0 1%;
+  border-radius: 50%;
+}
+
+.content .circle .car1 {
+  background: url(https://www.wcshipping.com/hs-fs/hubfs/C_Blogs/Blog_Images/20160401_145729-373138-edited.jpg?width=645&name=20160401_145729-373138-edited.jpg) center left no-repeat;
+  background-size: 145px;
+}
+
+.content .circle .car2 {
+  background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ford-mustang-boss-429-1970-by-simon-clay-news-photo-1598884238.jpg?crop=1.00xw:0.757xh;0,0.243xh&resize=1200:*) center left no-repeat;
+  background-size: 200px;
+}
+
+.content .circle .car3 {
+  background: url(https://pictures.topspeed.com/IMG/crop/201910/the-top-muscle-cars--10_400x266w.jpg) center left no-repeat;
+  background-size: 145px;
+}
+
+.content .circle .car4 {
+  background: url(https://www.nydailynews.com/resizer/LiXku90GjLNCtOOyosqaxUBWArw=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/NTX44DEKRSGA7MUQ5EXLR3F7DU.jpg) center left no-repeat;
+  background-size: 165px;
+}
+
+.content .circle .car5 {
+  background: url(https://i0.wp.com/ideal.media/wp-content/uploads/2020/08/1970-ford-mustang-Feature.jpg?fit=1100%2C661&ssl=1) center left no-repeat;
+  background-size: 165px;
+}
+
+.content .circle .car6 {
+  background: url(https://www.motor24.pt/files/2018/09/MUSCLE-CARS.jpg) center left no-repeat;
+  background-size: 145px;
+}
+
+.content .green {
+  background: #5a9b9e;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #5a9b9e), color-stop(0%, #fff));
+  background: linear-gradient(to bottom, #5a9b9e 37%, #fff 0%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .green .text {
+  width: 50%;
+  padding: 2.5rem 15% 0 2rem;
+}
+
+.content .green .text .arrow {
+  margin-top: 20px;
+  margin-left: 3rem;
+  font-size: 5rem;
+}
+
+.content .green .one-card {
+  width: 55%;
+}
+
+.content .green .one-card img {
+  height: 20rem;
+}
+
+.content .green .double-card {
+  width: 45%;
+  margin-right: 30px;
+}
+
+.content .green .card {
+  background: #284b63;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 10px;
+  -webkit-box-shadow: 3px 3px 5px 1px #828282;
+          box-shadow: 3px 3px 5px 1px #828282;
+  color: #e7e7e7;
+}
+
+.content .green .card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.content .green .card .img2 {
+  height: 15rem;
+}
+
+.content .green .card h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.content .green .card p {
+  padding: 20px;
+}
+
+.content .box-swiper {
+  margin-top: 30px;
+}
+
+.content .box-swiper .box-button {
+  padding: 50px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(80%, #0353a4), color-stop(0%, #fff));
+  background: linear-gradient(to right, #0353a4 80%, #fff 0%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .box-swiper .box-button img {
+  height: 15rem;
+}
+
+.content .box-swiper .box-button .coluna {
+  padding-left: 20px;
+}
+
+.content .box-swiper .box-button .coluna h2 {
+  width: 20rem;
+}
+
+.content .box-swiper .box-button .coluna p {
+  width: 20rem;
+  padding: 20px 0;
+}
+
+.content .box-swiper .box-button .coluna .button {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.content .box-swiper .swiper {
+  margin-top: 30px;
+  width: 30rem;
+  height: 100%;
+}
+
+.content .box-swiper .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.content .box-swiper .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.content .name {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.content .insta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 4rem 10rem;
+}
+
+.content .insta .box {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 5px;
+}
+
+.content .insta .box-one {
+  background: url(https://ssl8972.websiteseguro.com/curtiram/images/fotos/mh_interna_shelby_gt500.jpg);
+  background-size: cover;
+}
+
+.content .insta .box-two {
+  background: url(https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54cae42523eb9_-_american-muscle-facts-09-0312-xln.jpg?resize=480:*);
+  background-size: cover;
+}
+
+.content .insta .box-bottom {
+  margin-top: 5rem;
+  background: #606c38;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .insta .box-bottom p {
+  text-align: left;
+  padding: 40px;
+}
+
+.content footer {
+  border-top: #c7c7c7 2px solid;
+}
+
+.content footer a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all ease-in-out 150ms;
+  transition: all ease-in-out 150ms;
+}
+
+.content footer a:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 14px rgba(0, 0, 0, 0.4);
+}
+
+.content footer .logo {
+  background: url(https://seeklogo.com/images/M/muscle-car-logo-1A070DFE5A-seeklogo.com.png) center no-repeat;
+  background-size: 15rem;
+  height: 10rem;
+  margin-top: -6rem;
+}
+
+.content footer .menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 4rem 3rem;
+}
+
+.content footer .menu-footer .submenu div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 12rem;
+}
+
+.content footer .menu-footer .submenu div a {
+  padding: 10px 0;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  text-decoration: none;
+  color: #000;
+}
+
+.content footer .menu-footer .email {
+  width: 40%;
+}
+
+.content footer .menu-footer .email h4 {
+  padding: 20px 0;
+}
+
+.content footer .menu-footer .email form {
+  border-bottom: 2px solid #c7c7c7;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+}
+
+.content footer .menu-footer .email form input {
+  border: none;
+  width: 80%;
+}
+
+.content footer .menu-footer .email form button {
+  float: right;
+  background: #fff;
+  border: none;
+}
+
+.content footer .menu-footer .social ul {
+  list-style: none;
+  margin-top: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content footer .menu-footer .social ul li {
+  padding-bottom: 10px;
+}
+
+.content footer .menu-footer .social ul li a i {
+  padding-right: 5px;
+  color: #3b5998;
+}
+
+.content footer .menu-footer .social ul li a .bi-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.content footer .development {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 00;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .content .insta box {
+    height: 10rem;
+    width: 10rem;
+  }
+  .content .box-swiper .box-button {
+    height: 15rem;
+  }
+  .content .box-swiper .box-button .swiper {
+    width: 100%;
+    height: 32rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .swiper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content * {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=Style.css.map */

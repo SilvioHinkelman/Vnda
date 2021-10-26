@@ -1,0 +1,407 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  display: flex;
+  background: #d9d9d9b2;
+  img {
+    margin: 1rem 2rem;
+    height: 2.5rem;
+  }
+  a {
+    color: #3c6e71;
+    text-decoration: none;
+  }
+  .menu {
+    margin: auto;
+    a {
+      font-size: 900;
+      font-size: 1.5rem;
+      padding: 2rem;
+      text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+      transition: all ease-in-out 250ms;
+    }
+    a:hover {
+      margin-top: -3px;
+      text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    }
+  }
+  .user {
+    align-self: center;
+    float: right;
+    a {
+      padding: 0 10px;
+      span {
+        padding: 2px;
+        font-size: 2.2rem;
+        transition: all ease-in-out 250ms;
+        border-radius: 25%;
+        box-shadow: 0px 0px 10px rgba(109, 109, 109, 0.6);
+      }
+      span:hover {
+        margin-top: -3px;
+        box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}
+
+.content {
+  background: #a7a7a7;
+  .banner {
+    background: url("https://i.pinimg.com/originals/88/62/d7/8862d77c4329bc11052998c45f9cedab.png") no-repeat center,
+      #284b63;
+    height: 25rem;
+    text-align: center;
+    img {
+      height: 35rem;
+    }
+  }
+  background: #fff;
+  .circle {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    a {
+      height: 6rem;
+      width: 6rem;
+      margin: 0 1%;
+      border-radius: 50%;
+    }
+    .car1 {
+      background: url(https://www.wcshipping.com/hs-fs/hubfs/C_Blogs/Blog_Images/20160401_145729-373138-edited.jpg?width=645&name=20160401_145729-373138-edited.jpg)
+        center left no-repeat;
+      background-size: 145px;
+    }
+    .car2 {
+      background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ford-mustang-boss-429-1970-by-simon-clay-news-photo-1598884238.jpg?crop=1.00xw:0.757xh;0,0.243xh&resize=1200:*)
+        center left no-repeat;
+      background-size: 200px;
+    }
+    .car3 {
+      background: url(https://pictures.topspeed.com/IMG/crop/201910/the-top-muscle-cars--10_400x266w.jpg) center left
+        no-repeat;
+      background-size: 145px;
+    }
+    .car4 {
+      background: url(https://www.nydailynews.com/resizer/LiXku90GjLNCtOOyosqaxUBWArw=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/NTX44DEKRSGA7MUQ5EXLR3F7DU.jpg)
+        center left no-repeat;
+      background-size: 165px;
+    }
+    .car5 {
+      background: url(https://i0.wp.com/ideal.media/wp-content/uploads/2020/08/1970-ford-mustang-Feature.jpg?fit=1100%2C661&ssl=1)
+        center left no-repeat;
+      background-size: 165px;
+    }
+    .car6 {
+      background: url(https://www.motor24.pt/files/2018/09/MUSCLE-CARS.jpg) center left no-repeat;
+      background-size: 145px;
+    }
+  }
+  .green {
+    background: #5a9b9e;
+    background: linear-gradient(to bottom, #5a9b9e 37%, #fff 0%);
+    display: flex;
+    .text {
+      width: 50%;
+      padding: 2.5rem 15% 0 2rem;
+      .arrow {
+        margin-top: 20px;
+        margin-left: 3rem;
+        font-size: 5rem;
+      }
+    }
+    .one-card {
+      width: 55%;
+      img {
+        height: 20rem;
+      }
+    }
+    .double-card {
+      width: 45%;
+      margin-right: 30px;
+    }
+    .card {
+      background: #284b63;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+      margin: 10px;
+      box-shadow: 3px 3px 5px 1px #828282;
+      color: #e7e7e7;
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+      .img2 {
+        height: 15rem;
+      }
+      h4 {
+        text-align: center;
+        padding-top: 10px;
+      }
+      p {
+        padding: 20px;
+      }
+    }
+  }
+  .box-swiper {
+    margin-top: 30px;
+    .box-button {
+      padding: 50px;
+      background: linear-gradient(to right, #0353a4 80%, #fff 0%);
+      display: flex;
+      img {
+        height: 15rem;
+      }
+      .coluna {
+        padding-left: 20px;
+        h2 {
+          width: 20rem;
+        }
+        p {
+          width: 20rem;
+          padding: 20px 0;
+        }
+        .button {
+          background-color: #4caf50;
+          border: none;
+          border-radius: 5px;
+          padding: 10px;
+          color: antiquewhite;
+          text-decoration: none;
+        }
+      }
+    }
+    .swiper {
+      margin-top: 30px;
+      width: 30rem;
+      height: 100%;
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+  }
+  .name {
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .insta {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 4rem 10rem;
+    .box {
+      height: 17rem;
+      width: 17rem;
+      border-radius: 5px;
+    }
+    .box-one {
+      background: url(https://ssl8972.websiteseguro.com/curtiram/images/fotos/mh_interna_shelby_gt500.jpg);
+      background-size: cover;
+    }
+    .box-two {
+      background: url(https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54cae42523eb9_-_american-muscle-facts-09-0312-xln.jpg?resize=480:*);
+      background-size: cover;
+    }
+    .box-bottom {
+      margin-top: 5rem;
+      background: #606c38;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      p {
+        text-align: left;
+        padding: 40px;
+      }
+    }
+  }
+  footer {
+    border-top: #c7c7c7 2px solid;
+    a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+      transition: all ease-in-out 150ms;
+    }
+    a:hover {
+      margin-top: -3px;
+      text-shadow: 0px 14px 14px rgba(0, 0, 0, 0.4);
+    }
+    .logo {
+      background: url(https://seeklogo.com/images/M/muscle-car-logo-1A070DFE5A-seeklogo.com.png) center no-repeat;
+      background-size: 15rem;
+      height: 10rem;
+      margin-top: -6rem;
+    }
+    .menu-footer {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 4rem 3rem;
+      .submenu {
+        div {
+          display: flex;
+          flex-wrap: wrap;
+          width: 12rem;
+          a {
+            padding: 10px 0;
+            flex: 50%;
+            text-decoration: none;
+            color: #000;
+          }
+        }
+      }
+      .email {
+        width: 40%;
+        h4 {
+          padding: 20px 0;
+        }
+        form {
+          border-bottom: 2px solid #c7c7c7;
+          padding-bottom: 3px;
+          margin-bottom: 20px;
+          input {
+            border: none;
+            width: 80%;
+          }
+          button {
+            float: right;
+            background: #fff;
+            border: none;
+          }
+        }
+      }
+      .social {
+        ul {
+          list-style: none;
+          margin-top: 15px;
+          justify-content: center;
+          align-items: center;
+          li {
+            padding-bottom: 10px;
+            a {
+              i {
+                padding-right: 5px;
+                color: #3b5998;
+              }
+
+              .bi-instagram {
+                color: transparent;
+                background: -webkit-radial-gradient(
+                  30% 107%,
+                  circle,
+                  #fdf497 0%,
+                  #fdf497 5%,
+                  #fd5949 45%,
+                  #d6249f 60%,
+                  #285aeb 90%
+                );
+                background: -o-radial-gradient(
+                  30% 107%,
+                  circle,
+                  #fdf497 0%,
+                  #fdf497 5%,
+                  #fd5949 45%,
+                  #d6249f 60%,
+                  #285aeb 90%
+                );
+                background: radial-gradient(
+                  circle at 30% 107%,
+                  #fdf497 0%,
+                  #fdf497 5%,
+                  #fd5949 45%,
+                  #d6249f 60%,
+                  #285aeb 90%
+                );
+                background: -webkit-radial-gradient(
+                  circle at 30% 107%,
+                  #fdf497 0%,
+                  #fdf497 5%,
+                  #fd5949 45%,
+                  #d6249f 60%,
+                  #285aeb 90%
+                );
+                background-clip: text;
+                -webkit-background-clip: text;
+              }
+            }
+          }
+        }
+      }
+    }
+    .development {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: 00;
+      padding: 20px;
+    }
+  }
+}
+
+// Tablet
+@media screen and (max-width: 1100px) {
+  .content {
+    .insta {
+      box {
+        height: 10rem;
+        width: 10rem;
+      }
+    }
+    .box-swiper {
+.box-button {
+  height: 15rem;
+  .swiper {
+    width: 100%;
+    height: 32rem;
+  }
+}
+     
+    }
+  }
+}
+//Celular
+@media screen and (max-width: 800px) {
+  .swiper {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content {
+    * {
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+//flex-wrap: wrap;
